@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>jstasks</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h2>Market:</h2>
+        </div>
+
+        <div class="products">
+            <span>Product:</span>
+            <input type="text" id="product-name">
+
+                <span>Quantity:</span>
+                <div class = "input">
+                    <button value="-" id="minus" onclick="minus()">-</button>
+                        <input type="text" id="quantity" value = "1">
+                    <button value="+" id="plus" onclick="plus()">+ </button>
+                </div>
+            <span>Price:</span>
+            <input type="text" id="price"><br>
+
+            <button onclick="addItem()">Add product</button>
+        </div>
+
+        <h2>Basket:</h2>
+        <div id="basket"></div>
+
+
+    <script type="text/javascript" src="stash.js"></script>
+</body>
+</html>

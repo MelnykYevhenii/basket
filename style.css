@@ -1,0 +1,27 @@
+*{
+    font-family: 'Patrick Hand', cursive;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+html{
+    width: 500px;
+    height: 100%;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+th, td, tr {
+    border: 1px solid black;
+}
+
+#quantity{
+    width: 88%;
+}
+
+th, span{
+    color: red;
+}
